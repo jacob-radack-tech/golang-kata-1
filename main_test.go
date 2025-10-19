@@ -16,6 +16,6 @@ func TestWelcomeMessage(t *testing.T) {
 	// than
 	actual := welcomeMessage()
 
-	// that
+	// testing
 	g.Expect(actual).To(Equal(expected))
 }
