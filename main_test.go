@@ -7,7 +7,6 @@ import (
 )
 
 func TestWelcomeMessage(t *testing.T) {
-	// instance of gomega
 	g := NewGomegaWithT(t)
 
 	// given
